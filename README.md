@@ -46,3 +46,7 @@ python motive/interface_motive_feet.py
 python motive/interface_motive_hands.py
 python main.py
 ```
+
+## Logs
+All log data is saved in the `logs` directory, created using `ensure_dir("logs")` in the `main.py`.  
+
