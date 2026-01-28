@@ -16,6 +16,11 @@ The third computer acts as the client: it receives the motion capture data from 
 
 You can find the defined IP addresses and ports used in this project in the file: motive/defs_udp.py.
 
+
+## Attention 
+The `NatNetPythonClient` is used to read data remotely from the Motive software.  
+It is distributed under the following license: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
 ## Set-up
 First, define **marker sets** for each OptiTrack machine:  
 
