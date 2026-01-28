@@ -15,3 +15,24 @@ On these Windows machines, you should install the Motive software, which receive
 The third computer acts as the client: it receives the motion capture data from the two Windows machines and uses it to control objects in the virtual environment.
 
 You can find the defined IP addresses and ports used in this project in the file: motive/defs_udp.py.
+
+## Running the virtual environment
+First, define **marker sets** for each OptiTrack machine:  
+
+- **Two marker sets** for tracking the **feet**  
+- **Two marker sets** for tracking the **hands**  
+
+In the Motive software, assign the following IDs to each marker set for mapping (this will be used in the third PC to get the values):
+
+```python
+INTERFACES = [
+    {"name": "left_hand", "udp_id": 1},
+    {"name": "right_hand", "udp_id": 2},
+    {"name": "left_foot", "udp_id": 3},
+    {"name": "right_foot", "udp_id": 4}
+]
+
+After setting up the marker sets, verify their quality in the Motive software. You can adjust their poses, calibrate them, and make other necessary refinements to ensure accurate tracking.
+
+Next, on the third PC, ensure it is connected to the OptiTrack systems. You can test the connection using the `ping` command to verify network communication.
+
