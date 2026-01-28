@@ -13,3 +13,5 @@ Additionally, you need a local network, using a switch, with ideally three compu
 On these Windows machines, you should install the Motive software, which receives data from the OptiTrack cameras and transmits it over the network. You can configure the IP addresses and other network settings directly within the Motive software.
 
 The third computer acts as the client: it receives the motion capture data from the two Windows machines and uses it to control objects in the virtual environment.
+
+You can find the defined IP addresses and ports used in this project in the file: motive/defs_udp.py.
