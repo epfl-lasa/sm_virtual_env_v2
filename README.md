@@ -8,7 +8,7 @@ Make sure you have **Python 3.12** installed. The following Python packages are 
 - [imageio](https://imageio.readthedocs.io/)
 - [SciPy](https://www.scipy.org/)
 
-Additionally, you need a local network, using a switch, with ideally three computers. Two of these should run Microsoft Windows. Each Windows machine should have an OptiTrack V120 Trio connected.
+Additionally, you need a local network, using a switch, with ideally three computers. Two of these should run Microsoft Windows. Each Windows machine should have an OptiTrack V120 Trio connected. The last PC in this project, is running Ubuntu, a GNU/Linux operating system.
 
 On these Windows machines, you should install the Motive software, which receives data from the OptiTrack cameras and transmits it over the network. You can configure the IP addresses and other network settings directly within the Motive software.
 
