@@ -16,7 +16,7 @@ The third computer acts as the client: it receives the motion capture data from 
 
 You can find the defined IP addresses and ports used in this project in the file: motive/defs_udp.py.
 
-## Running the virtual environment
+## Set-up
 First, define **marker sets** for each OptiTrack machine:  
 
 - **Two marker sets** for tracking the **feet**  
@@ -37,3 +37,12 @@ After setting up the marker sets, verify their quality in the Motive software. Y
 
 Next, on the third PC, ensure it is connected to the OptiTrack systems. You can test the connection using the `ping` command to verify network communication.
 
+## Running the Scripts
+
+Now, open **three terminals** and run the following scripts:
+
+```bash
+python motive/interface_motive_feet.py
+python motive/interface_motive_hands.py
+python main.py
+```
