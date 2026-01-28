@@ -16,6 +16,12 @@ The third computer acts as the client: it receives the motion capture data from 
 
 You can find the defined IP addresses and ports used in this project in the file: motive/defs_udp.py.
 
+```python
+# Fixed motion capture system
+FIXED_MOCAP_IP_LOCAL = "192.168.131.103"
+FIXED_MOCAP_IP_REMOTE_HANDS = "192.168.131.102"
+FIXED_MOCAP_IP_REMOTE_FEET = "192.168.131.101"
+```
 
 ## Attention 
 The `NatNetPythonClient` is used to read data remotely from the Motive software.  
