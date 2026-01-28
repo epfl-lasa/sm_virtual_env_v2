@@ -31,6 +31,7 @@ INTERFACES = [
     {"name": "left_foot", "udp_id": 3},
     {"name": "right_foot", "udp_id": 4}
 ]
+```
 
 After setting up the marker sets, verify their quality in the Motive software. You can adjust their poses, calibrate them, and make other necessary refinements to ensure accurate tracking.
 
